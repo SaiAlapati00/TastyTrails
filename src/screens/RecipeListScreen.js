@@ -1,6 +1,5 @@
 import { StyleSheet, View, Text, SafeAreaView, ScrollView } from "react-native";
 import React from "react";
-import Header from "../components/Header";
 import SearchFilter from "../components/SearchFilter";
 import CategoriesFilter from "../components/CategoriesFilter";
 import RecipeCard from "../components/RecipeCard";
