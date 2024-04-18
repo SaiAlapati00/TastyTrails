@@ -34,3 +34,9 @@ This code defines a reusable component (SearchFilter) for a search input field w
 
 **Categories**
 This code defines a component (CategoriesFilter) displaying categories horizontally using a ScrollView. It maps over the categories constant, rendering each category as a view with styling. Each category name is displayed within a Text component with blue color and a specified font size. Horizontal scrolling is enabled with showsHorizontalScrollIndicator={false}.
+
+## Presentation
+
+#### Below is the video to our presentation.
+
+<video controls src="Mobile App Project Presentation.mp4" title="Title"></video>
