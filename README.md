@@ -39,4 +39,5 @@ This code defines a component (CategoriesFilter) displaying categories horizonta
 
 #### Below is the video to our presentation.
 
-<video controls src="Mobile App Project Presentation.mp4" title="Title"></video>
+https://github.com/SaiAlapati00/TastyTrails/assets/156277633/9a8ab200-5859-41f5-b8e2-6794c4d7b187
+
