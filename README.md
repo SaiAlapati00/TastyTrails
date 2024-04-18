@@ -41,3 +41,20 @@ The Categories Filter is a horizontal scrollable bar which includes various cate
 
 https://github.com/SaiAlapati00/TastyTrails/assets/156277633/9a8ab200-5859-41f5-b8e2-6794c4d7b187
 
+## Codes
+
+### Below are the links to various codes
+
+[AppNavigator.js](/src/navigation/AppNavigator.js)
+
+[WelcomeScreen.js](/src/screens/WelcomeScreen.js)
+
+[RecipeListScreen.js](/src/screens/RecipeListScreen.js)
+
+[RecipeDetailsScreen.js](/src/screens/RecipeDetailsScreen.js)
+
+[RecipeCard.js](/src/components/RecipeCard.js)
+
+[SearchFilter.js](/src/components/SearchFilter.js)
+
+[CategoriesFilter.js](/src/components/CategoriesFilter.js)
