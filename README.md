@@ -5,35 +5,35 @@
 ### Explanation of the code
 
 **Navigation**
-This code sets up a navigation structure for each native app using react navigation. It defines stack navigator with three screens - welcome, recipe list and recipe detail.
-
+The `AppNavigator.js` is the default navigator for the project, This creates a Navigation Container which includes all the screens related to our project.
 
 **Welcome Screen**
-It displays an image, caption and a button for exploring of the app when clicked.
+The is the first screen the user will be presented with. It includes a picture along with the App's name with a small quote. At the bottom we have a button which takes us to the main screen aka Recipe List Screen.
 
 ![Welcome Screen](1.jpg)
 
 **Recipe List Screen**
-It displays a list of recipes with search at the top. It includes components for the header, search, categories, recipe cards.
+The Recipe List Screen includes a Searchbar and a Categories bar on top of the RecipeCard Screen.
 
 ![Recipe List Screen](2.jpg)
 
 **Recipe Detail Screen**
-It displays details of a recipe. It includes navigation elements, recipe image, name, description and some extra details like time, difficulty, ingredients and steps.
+The Recipe Detail Screen, is the part of the screen where the user is directed to when he presses a particular recipe list card. It includes the recipe name, recipe image, description and some extra details like time, difficulty, ingredients and steps.
+
 
 **Constant.js**
-This code defines constants for colors, recipe categories, list of recipes, each containing name, image, steps, ingredients etc. Whatever the content we want to write we can add it here.
+Constant.js the the file which contains the data for the app, it includes the various recipes and all the details of each recipe. Along with this, there are also the various categories that are present.
 
 ![Constant.js](3.jpg)
 
 **RecipeCard**
-This code defines a reusable component (RecipeCard) to display recipe cards using a FlatList, iterating over the recipeList data. The useNavigation from React Navigation allows navigation to the recipe detail screen upon press. The layout is structured with two columns and vertical scrolling disabled for better user experience.
+Recipe Card, is the small cards that appear in the Recipe List Screen. These cards include a Pressable which directs to the particular recipe Detail Screen, We have a small image depicting the dish along with its name.
 
 **Search**
-This code defines a reusable component (SearchFilter) for a search input field with an icon. It accepts placeholder text. 
+The Search Bar is created to make searching for recipes much easier, it includes a small text as a placeholder. 
 
 **Categories**
-This code defines a component (CategoriesFilter) displaying categories horizontally using a ScrollView. It maps over the categories constant, rendering each category as a view with styling. Each category name is displayed within a Text component with blue color and a specified font size. Horizontal scrolling is enabled with showsHorizontalScrollIndicator={false}.
+The Categories Filter is a horizontal scrollable bar which includes various categories which the user can help filter recipes.
 
 ## Presentation
 
