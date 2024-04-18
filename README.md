@@ -20,6 +20,8 @@ The Recipe List Screen includes a Searchbar and a Categories bar on top of the R
 **Recipe Detail Screen**
 The Recipe Detail Screen, is the part of the screen where the user is directed to when he presses a particular recipe list card. It includes the recipe name, recipe image, description and some extra details like time, difficulty, ingredients and steps.
 
+![Recipe Details Screen](4.jpg)
+
 
 **Constant.js**
 Constant.js the the file which contains the data for the app, it includes the various recipes and all the details of each recipe. Along with this, there are also the various categories that are present.
