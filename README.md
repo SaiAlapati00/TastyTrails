@@ -1,5 +1,10 @@
 # TastyTrails
 
+## Team Members
+Saiteja Alapati (alapatsj)
+Sushma Sai Vejandla (vejandsi)
+Pranathi Bongu (bongupi)
+
 ## Description
 
 ### Explanation of the code
